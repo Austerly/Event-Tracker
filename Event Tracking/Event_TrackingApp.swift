@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct Event_TrackingApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

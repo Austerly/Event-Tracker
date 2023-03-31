@@ -14,6 +14,12 @@
 		D969770E29D6632600F06165 /* Event_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969770D29D6632600F06165 /* Event_TrackingTests.swift */; };
 		D969771829D6632600F06165 /* Event_TrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969771729D6632600F06165 /* Event_TrackingUITests.swift */; };
 		D969771A29D6632600F06165 /* Event_TrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969771929D6632600F06165 /* Event_TrackingUITestsLaunchTests.swift */; };
+		D990E57429D6877600F8043E /* data_objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E57329D6877600F8043E /* data_objects.swift */; };
+		D990E57629D688AE00F8043E /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E57529D688AE00F8043E /* EventDetailView.swift */; };
+		D990E57A29D688E500F8043E /* EventBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E57929D688E500F8043E /* EventBlockView.swift */; };
+		D990E57C29D689F700F8043E /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E57B29D689F700F8043E /* EventView.swift */; };
+		D990E57E29D6A21000F8043E /* NewEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E57D29D6A21000F8043E /* NewEventView.swift */; };
+		D990E58229D6AED400F8043E /* NewEventBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990E58129D6AED400F8043E /* NewEventBlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		D969771329D6632600F06165 /* Event TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Event TrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D969771729D6632600F06165 /* Event_TrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_TrackingUITests.swift; sourceTree = "<group>"; };
 		D969771929D6632600F06165 /* Event_TrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_TrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D990E57329D6877600F8043E /* data_objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_objects.swift; sourceTree = "<group>"; };
+		D990E57529D688AE00F8043E /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		D990E57929D688E500F8043E /* EventBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBlockView.swift; sourceTree = "<group>"; };
+		D990E57B29D689F700F8043E /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		D990E57D29D6A21000F8043E /* NewEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventView.swift; sourceTree = "<group>"; };
+		D990E58129D6AED400F8043E /* NewEventBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventBlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				D96976FC29D6632400F06165 /* Event_TrackingApp.swift */,
+				D990E57B29D689F700F8043E /* EventView.swift */,
+				D990E57D29D6A21000F8043E /* NewEventView.swift */,
 				D96976FE29D6632400F06165 /* ContentView.swift */,
+				D990E57529D688AE00F8043E /* EventDetailView.swift */,
+				D990E58129D6AED400F8043E /* NewEventBlockView.swift */,
+				D990E57929D688E500F8043E /* EventBlockView.swift */,
+				D990E57329D6877600F8043E /* data_objects.swift */,
 				D969770029D6632600F06165 /* Assets.xcassets */,
 				D969770229D6632600F06165 /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D990E57429D6877600F8043E /* data_objects.swift in Sources */,
+				D990E57629D688AE00F8043E /* EventDetailView.swift in Sources */,
+				D990E57A29D688E500F8043E /* EventBlockView.swift in Sources */,
+				D990E57C29D689F700F8043E /* EventView.swift in Sources */,
+				D990E58229D6AED400F8043E /* NewEventBlockView.swift in Sources */,
 				D96976FF29D6632400F06165 /* ContentView.swift in Sources */,
 				D96976FD29D6632400F06165 /* Event_TrackingApp.swift in Sources */,
+				D990E57E29D6A21000F8043E /* NewEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
